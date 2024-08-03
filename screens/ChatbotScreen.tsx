@@ -21,7 +21,7 @@ const ChatbotScreen = () => {
   }, []);
 
   const fetchRecipes = async (query: string) => {
-    console.log('whats going',query)
+    console.log('whats going?',query)
     try {
       const response = await axios.get(`https://api.spoonacular.com/recipes/complexSearch`, {
         params: {
